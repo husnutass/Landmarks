@@ -13,6 +13,8 @@
 		BC6EB7A32788A1E000E2FBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6EB7A12788A1E000E2FBAE /* Main.storyboard */; };
 		BC6EB7A52788A1E200E2FBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6EB7A42788A1E200E2FBAE /* Assets.xcassets */; };
 		BC6EB7A82788A1E200E2FBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6EB7A62788A1E200E2FBAE /* LaunchScreen.storyboard */; };
+		BC6EB7B02788B23300E2FBAE /* LandmarkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6EB7AF2788B23300E2FBAE /* LandmarkCollectionViewCell.swift */; };
+		BC6EB7B22788B60F00E2FBAE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6EB7B12788B60F00E2FBAE /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BC6EB7A42788A1E200E2FBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC6EB7A72788A1E200E2FBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC6EB7A92788A1E200E2FBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6EB7AF2788B23300E2FBAE /* LandmarkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCollectionViewCell.swift; sourceTree = "<group>"; };
+		BC6EB7B12788B60F00E2FBAE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				BC6EB79B2788A1E000E2FBAE /* AppDelegate.swift */,
 				BC6EB79D2788A1E000E2FBAE /* SceneDelegate.swift */,
 				BC6EB79F2788A1E000E2FBAE /* ViewController.swift */,
+				BC6EB7AF2788B23300E2FBAE /* LandmarkCollectionViewCell.swift */,
+				BC6EB7B12788B60F00E2FBAE /* DetailViewController.swift */,
 				BC6EB7A12788A1E000E2FBAE /* Main.storyboard */,
 				BC6EB7A42788A1E200E2FBAE /* Assets.xcassets */,
 				BC6EB7A62788A1E200E2FBAE /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6EB7B02788B23300E2FBAE /* LandmarkCollectionViewCell.swift in Sources */,
 				BC6EB7A02788A1E000E2FBAE /* ViewController.swift in Sources */,
+				BC6EB7B22788B60F00E2FBAE /* DetailViewController.swift in Sources */,
 				BC6EB79C2788A1E000E2FBAE /* AppDelegate.swift in Sources */,
 				BC6EB79E2788A1E000E2FBAE /* SceneDelegate.swift in Sources */,
 			);
